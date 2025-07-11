@@ -1,0 +1,560 @@
+
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fornecemos concreto usinado de alta qualidade para sua obra em São Paulo. Entrega rápida, preço competitivo e atendimento especializado.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="VD Concreto Usinado">
+  <meta name="keywords" content="concreto usinado, concreto sp, fornecedor de concreto, concreto para obra, betoneira, concreto pronto, concreto delivery">
+  <title>VD Concreto Usinado - Qualidade e Agilidade para Sua Obra em SP</title>
+  <link rel="canonical" href="https://www.lcpconcretousinado.com.br">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      line-height: 1.6;
+      background-color: #f5f5f5;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://portonextconsorcassessoria.site/wp-content/uploads/2025/06/slide5_itacon.png') no-repeat center center/cover;
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+    header p {
+      font-size: 1.4rem;
+      max-width: 800px;
+      margin: 0 auto 40px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .hero-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-block;
+      padding: 15px 35px;
+      background: #e67e22;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: all 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .btn:hover {
+      background: #d35400;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    }
+    .btn-secondary {
+      background: #3498db;
+    }
+    .btn-secondary:hover {
+      background: #2980b9;
+    }
+    section {
+      padding: 80px 20px;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 50px;
+      color: #2c3e50;
+      font-size: 2.2rem;
+      position: relative;
+    }
+    .section-title:after {
+      content: '';
+      display: block;
+      width: 100px;
+      height: 4px;
+      background: #e67e22;
+      margin: 15px auto 0;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .feature-card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .feature-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    }
+    .feature-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .feature-card h3 {
+      margin-bottom: 15px;
+      color: #e67e22;
+      font-size: 1.4rem;
+    }
+    .about {
+      background: #fff;
+    }
+    .about-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+    .about-img {
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .about-img img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .testimonials {
+      background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://portonextconsorcassessoria.site/wp-content/uploads/2025/06/86-b4d1a2f781e4b1c6fa3709c0f72a91c3.webp') no-repeat center center/cover;
+      color: #fff;
+      text-align: center;
+    }
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .testimonial-card {
+      background: rgba(255,255,255,0.1);
+      padding: 30px;
+      border-radius: 8px;
+      backdrop-filter: blur(5px);
+      transition: transform 0.3s;
+    }
+    .testimonial-card:hover {
+      transform: translateY(-5px);
+    }
+    .testimonial-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #e67e22;
+    }
+    .testimonial-card p {
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+    .testimonial-card h4 {
+      color: #e67e22;
+      margin-bottom: 5px;
+    }
+    .contact {
+      background: #f9f9f9;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .contact-card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .contact-card h3 {
+      margin-bottom: 20px;
+      color: #e67e22;
+      font-size: 1.5rem;
+    }
+    .contact-info {
+      margin-bottom: 20px;
+    }
+    .contact-info p {
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+    }
+    .contact-info i {
+      margin-right: 15px;
+      color: #e67e22;
+      font-size: 1.2rem;
+      min-width: 20px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    form textarea {
+      min-height: 150px;
+    }
+    form button {
+      width: 100%;
+      padding: 15px;
+      background: #e67e22;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    form button:hover {
+      background: #d35400;
+    }
+    footer {
+      background: #2c3e50;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+      text-align: left;
+    }
+    .footer-column h3 {
+      margin-bottom: 25px;
+      position: relative;
+      padding-bottom: 10px;
+      font-size: 1.3rem;
+    }
+    .footer-column h3::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 50px;
+      height: 3px;
+      background: #e67e22;
+    }
+    .footer-column p, .footer-column a {
+      margin-bottom: 15px;
+      color: #ecf0f1;
+      display: block;
+      text-decoration: none;
+      transition: color 0.3s;
+      font-size: 1rem;
+    }
+    .footer-column a:hover {
+      color: #e67e22;
+    }
+    .social-links {
+      display: flex;
+      gap: 15px;
+      margin-top: 25px;
+    }
+    .social-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 45px;
+      height: 45px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 50%;
+      transition: all 0.3s;
+      color: #fff;
+      font-size: 1.2rem;
+    }
+    .social-links a:hover {
+      background: #e67e22;
+      transform: translateY(-3px);
+    }
+    .copyright {
+      margin-top: 60px;
+      padding-top: 30px;
+      border-top: 1px solid rgba(255,255,255,0.2);
+      font-size: 0.9rem;
+      color: #bdc3c7;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: #25D366;
+      color: #fff;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      z-index: 100;
+      transition: all 0.3s;
+    }
+    .whatsapp-float:hover {
+      background: #128C7E;
+      transform: scale(1.1);
+    }
+    @media (max-width: 992px) {
+      header {
+        padding: 80px 20px;
+      }
+      header h1 {
+        font-size: 2.4rem;
+      }
+      header p {
+        font-size: 1.2rem;
+      }
+    }
+    @media (max-width: 768px) {
+      header {
+        padding: 60px 20px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+      .about-content {
+        grid-template-columns: 1fr;
+      }
+      .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+      .btn {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+      }
+      .section-title {
+        font-size: 1.8rem;
+      }
+    }
+    @media (max-width: 576px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      header p {
+        font-size: 1.1rem;
+      }
+      .section-title {
+        font-size: 1.6rem;
+      }
+      .feature-card {
+        padding: 20px;
+      }
+      .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        font-size: 1.6rem;
+        bottom: 20px;
+        right: 20px;
+      }
+    }
+  </style>
+  <!-- Font Awesome para ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Botão flutuante do WhatsApp -->
+  <a href="https://wa.me/5512997109130?text=ola%20belgas" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <header>
+    <h1>Concreto Usinado de Qualidade</h1>
+    <p>Fornecemos concreto usinado com agilidade, preço justo e atendimento especializado para obras de todos os portes.</p>
+    <div class="hero-buttons">
+      <a href="https://wa.me/5512997109130?text=ola%20belgas" class="btn" target="_blank">
+        <i class="fab fa-whatsapp"></i> Pedir Orçamento via WhatsApp
+      </a>
+      <a href="#contact" class="btn btn-secondary">
+        <i class="fas fa-headset"></i> Atendimento Especializado
+      </a>
+    </div>
+  </header>
+
+  <section class="container">
+    <h2 class="section-title">Nossos Serviços</h2>
+    <div class="features">
+      <div class="feature-card">
+        <img src="https://portonextconsorcassessoria.site/wp-content/uploads/2025/06/slide5_itacon.png" alt="Entrega de concreto usinado">
+        <h3>Entrega Rápida</h3>
+        <p>Frota própria de caminhões betoneira para garantir que seu concreto chegue no prazo combinado, diretamente na sua obra.</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://portonextconsorcassessoria.site/wp-content/uploads/2025/06/tipos-de-concreto-usinado-para-piso.jpg" alt="Tipos de concreto">
+        <h3>Variedade de Concreto</h3>
+        <p>Oferecemos diversos tipos de concreto usinado para atender todas as necessidades da sua construção, desde fundações até acabamentos.</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://portonextconsorcassessoria.site/wp-content/uploads/2025/06/86-b4d1a2f781e4b1c6fa3709c0f72a91c3.webp" alt="Equipe especializada">
+        <h3>Assistência Técnica</h3>
+        <p>Nossa equipe técnica está à disposição para orientar sobre o melhor tipo de concreto para cada etapa da sua obra.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h2 class="section-title">Sobre a Concreto Usinado</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>A  Concreto Usinado é uma empresa especializada no fornecimento de concreto de alta qualidade para a região do Brasil. Com anos de experiência no mercado, nos destacamos pela excelência no atendimento e pela qualidade dos nossos produtos.</p>
+          <p>Nossas centrais de produção possuem equipamentos modernos e tecnologia avançada, garantindo um concreto com dosagem precisa e controle de qualidade rigoroso em todas as etapas.</p>
+          <p>Atendemos desde pequenas reformas até grandes empreendimentos, com flexibilidade para atender as necessidades específicas de cada cliente.</p>
+        </div>
+        <div class="about-img">
+          <img src="https://portonextconsorcassessoria.site/wp-content/uploads/2025/06/empresa-especializada-em-concretagem-de-piso-de-garagem.jpg" alt="Equipe LCP Concreto Usinado">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">Tipos de Concreto</h2>
+    <div class="features">
+      <div class="feature-card">
+        <img src="https://portonextconsorcassessoria.site/wp-content/uploads/2025/06/tipos-de-concreto-usinado-para-piso.jpg" alt="Concreto convencional">
+        <h3>Concreto Convencional</h3>
+        <p>Para fundações, estruturas, pisos e outras aplicações gerais em construção civil, com resistência variável conforme necessidade.</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://portonextconsorcassessoria.site/wp-content/uploads/2025/06/empresa-que-faz-concreto-usinado-para-piso-de-garagem.jpg" alt="Concreto bombeável">
+        <h3>Concreto Bombeável</h3>
+        <p>Formulação especial para aplicações que exigem bombeamento a grandes alturas ou distâncias, com alta trabalhabilidade.</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://portonextconsorcassessoria.site/wp-content/uploads/2025/06/concreto_04.jpg.webp" alt="Concreto protendido">
+        <h3>Concreto Protendido</h3>
+        <p>Para obras que exigem alta resistência à tração, como pontes, viadutos e estruturas especiais com grandes vãos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <h2 class="section-title">O que nossos clientes dizem</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente satisfeito">
+          <p>"O concreto da VD chegou no horário combinado e com a qualidade exata que precisávamos para nossa obra. Recomendo!"</p>
+          <h4>João Silva</h4>
+          <p>Construtor Civil</p>
+        </div>
+        <div class="testimonial-card">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente satisfeito">
+          <p>"Atendimento excelente e preço justo. Já fizemos várias obras com esse fornecedor e sempre atendem às expectativas."</p>
+          <h4>Maria Oliveira</h4>
+          <p>Arquiteta</p>
+        </div>
+        <div class="testimonial-card">
+          <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Cliente satisfeito">
+          <p>"Concreto de ótima qualidade e equipe técnica que realmente entende do assunto. Parceiros em todos nossos projetos."</p>
+          <h4>Carlos Mendes</h4>
+          <p>Engenheiro Civil</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Entre em Contato</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Informações de Contato</h3>
+          <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> R. Domingos Vieira, 273 - Sala 803 - Santa Efigênia - Belo Horizonte/MG - CEP 30.150-242</p>
+            <p><i class="fas fa-phone"></i> (31) 8438-4893</p>
+            <p><i class="fas fa-envelope"></i> Contato@portonextconsorcassessoria.site</p>
+            <p><i class="fas fa-clock"></i> Segunda a Sexta: 8h às 18h</p>
+            <p><i class="fas fa-file-alt"></i> CNPJ: 55.089.373/0001-72</p>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.link/1xsh09/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <h3>Solicite um Orçamento</h3>
+          <form>
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="tel" placeholder="Telefone" required>
+            <input type="email" placeholder="E-mail">
+            <textarea placeholder="Descreva sua necessidade (tipo de concreto, quantidade, local da obra)" rows="4" required></textarea>
+            <p style="font-size: 0.9rem; margin-bottom: 15px;">
+              Ao enviar este formulário, você concorda com nossa <a href="privacidade.html" style="color: #e67e22;">Política de Privacidade</a> e <a href="termos.html" style="color: #e67e22;">Termos de Uso</a>.
+            </p>
+            <button type="submit"><i class="fas fa-paper-plane"></i> Enviar Solicitação</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>LCP Concreto Usinado</h3>
+          <p>Corretora de seguros especializada em oferecer as melhores soluções em proteção para você e sua família.</p>
+        </div>
+        <div class="footer-column">
+          <h3>Links Rápidos</h3>
+          <a href="#">Home</a>
+          <a href="#services">Serviços</a>
+          <a href="#about">Sobre Nós</a>
+          <a href="#contact">Contato</a>
+        </div>
+        <div class="footer-column">
+          <h3>Informações</h3>
+          <p><i class="fas fa-file-alt"></i> CNPJ: 55.089.373/0001-72</p>
+          <p><i class="fas fa-calendar-alt"></i> Fundação: 05/04/2022</p>
+          <p><i class="fas fa-building"></i> Razão Social: LCP Real Estate Development FII LTDA</p>
+          <p><i class="fas fa-signature"></i> Nome Fantasia: VIEIRA DINIZ CORRETORA DE SEGUROS</p>
+        </div>
+        <div class="footer-column">
+          <h3>Legal</h3>
+          <a href="https://portonextconsorcassessoria.site/politica-de-privacidade/">Política de Privacidade</a>
+          <a href="https://portonextconsorcassessoria.site/termos-de-uso/">Termos de Uso</a>
+          <a href="https://portonextconsorcassessoria.site/politica-de-cookies/">Política de Cookies</a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 LCP Concreto Usinado - Todos os direitos reservados.</p>
+        <p>Endereço: Rua Domingos Vieira, 273, Sala 803 - Santa Efigênia, Belo Horizonte/MG - CEP: 30.150-242</p>
+      </div>
+    </div>
+</footer>
+</body>
+</html>
